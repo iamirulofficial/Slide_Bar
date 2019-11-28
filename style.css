@@ -1,0 +1,307 @@
+  body{    
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #ebebeb;  
+     
+    
+}
+
+.team-box input {
+    position: absolute;
+    display: none;
+}
+.team-box form ul{
+    padding: 0 ;
+    margin: 0;
+}
+
+.team-box .team-name{
+    position: relative;
+    display: block;
+    width: 420px;
+    transform: rotate(-90deg);
+    top: 197px;
+    left: -185px;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.team-box label {
+    position: relative;
+    display: block;
+    height:420px;
+    width: 50px;
+    z-index: 3;
+    background: #ff6666;
+    text-align: center;
+    border-right: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    margin-bottom:0;
+    float: left;
+    overflow: hidden;     
+    transition: width 1s ease, background 0.5s ease;
+}
+
+.team-box #rad2 + .team-box label {
+    background: #888;     
+    transition: width 1s ease, background 0.5s ease;
+}
+
+.team-box label:hover,.team-box #rad2 + .team-box label:hover {
+    background: #e65151;
+    color: #fff;
+    cursor: pointer;
+}
+
+.team-box{
+    position: relative;
+    overflow: hidden;
+    padding: 35px 0;
+}
+
+.team-box .accslide {
+    display:block;
+    height:420px;
+    width: 0px;
+    background: #fff;
+    opacity: 0;
+    overflow-x: hidden;
+    float: left;
+         
+    transition: all 1s ease;
+}
+
+.team-box .accslide .team-about{
+    padding: 40px;
+    width: 579px;
+    display: inline-block;
+    float: left;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+.team-box .accslide .team-img{
+    display: inline-block;
+    width: 355px;
+    float: right;
+    position: absolute;
+    margin-top: -36px;
+    border: 4px solid #fff;
+}
+
+
+.team-box .accslide .team-inner{
+    width: 960px;
+    background: #FFFFFF;
+}
+.team-box input[type="radio"]:checked+label ~ .accslide {
+    width: 960px;
+    opacity: 1;
+}
+
+
+/* team two */
+
+.team-box-two-inner{
+    max-width:700px;
+    margin: 0 auto;
+    position: relative;
+}
+.team-box-two-inner .team-two-about{
+    position: relative;
+    max-width: 395px;
+    padding: 40px 80px 40px 40px;
+    background: #f4f4f4;
+}
+.team-box-two-inner .team-two-about p{
+    max-width: 280px;
+ }
+.team-two-social a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.team-two-image{
+    margin-left: -40px;
+    position: relative;
+}
+
+
+.team-two .navPrev {
+    position: absolute;
+    top: 15%;
+    left: 15px;
+    z-index: 0
+}
+.team-two .navPrev span {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.team-two .navPrev:hover span {
+    width: 270px;
+}
+
+.team-two .navPrev span img {
+    position: relative;
+    margin: auto 0px;
+    cursor: pointer;
+    width: 270px;
+}
+
+.team-two .navNext {
+    position: absolute;
+    top: 15%;
+    right: 15px;
+    z-index: 2;
+}
+
+.team-two .navNext span {
+    width: 270px;
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.team-two .navNext span img {
+    position: relative;
+    margin: auto 0px;
+    cursor: pointer;
+     width: 270px;
+}
+.team-two .owl-team .owl-prev{
+    position: absolute;
+    top: 83px;
+    height: 382px;
+    margin: 0;
+    padding: 0;
+    width: 205px;
+    background: transparent;
+    border: 0;
+    border-radius:0;
+}
+.team-two .owl-team .owl-prev{
+    left: 0;
+}
+
+.team-two-left,.team-two-right{
+    position: absolute;
+    top: 0;
+    height: 379px;
+    width: 100%;
+    cursor: pointer;
+}
+.team-two-right-nav, .team-two-left-nav{
+    position: relative;
+    max-width: 70px;
+    height:378px;
+    text-align: center;
+    color: #FFFFFF;
+    background: yellow;
+}
+
+.team-two-right-nav{
+    float: right;
+}
+.team-two-left-nav{
+    float: left;
+}
+
+.team-two-right-nav h4 {
+    position: relative;
+    width: 300px;
+    display: block;
+    transform: rotate(90deg);
+    top: 140px;
+    right: 115px;
+    text-align: left;
+    margin: 0;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.team-two-left-nav i{
+   position: relative;
+    top: 12px;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.team-two-left-nav .team-verticle-line{
+    position: relative;
+    height: 80px;
+    width: 2px !important;
+    display: block !important;
+    margin: 0 auto;
+    background: #FFFFFF;
+    top: 20px;
+}
+
+.team-two-left-nav h4 {
+    position: relative;
+    width: 300px;
+    display: block;
+    transform: rotate(-90deg);
+    top:90px;
+    right: 115px;
+    text-align: left;
+    margin: 0;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+.team-two-right-nav i{
+    position: absolute;
+    bottom: 15px;
+    right: 23px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.team-two-right-nav .team-verticle-line{
+    height: 80px;
+    width: 2px !important;
+    display: inline-block !important;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 55px;
+    right: 33px;
+}    
+    
+    .team-box .team-name {
+    position: relative;
+    display: block;
+    width: 420px;
+    transform: rotate(-90deg);
+    top: 197px;
+    left: -185px;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+    p{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+.text-white {
+    color: #fff!important;
+}
+   
+    ul li{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .btn-danger{
+        padding: 12px 40px;
+        border-radius: 50px;
+        margin-top: 30px;
+        background: #ff6666;
+        border: none;
+    }
+    
