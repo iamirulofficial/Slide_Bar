@@ -1,2 +1,2 @@
 # Creative Slide_Bar
-### Click Tiggered Js Slide
+### Click Tiggered Animated Js Slide
